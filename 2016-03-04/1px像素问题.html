@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>1px 像素问题</title>
+</head>
+<style>
+    .scale{
+        position: relative;
+    }
+    .scale:after{
+        content:"";
+        position: absolute;
+        bottom:0px;
+        left:0px;
+        right:0px;
+        border-bottom:1px solid #333333;
+        -webkit-transform:scaleY(.5);
+        -webkit-transform-origin:0 0;
+    }
+</style>
+<body>
+<div class="scale"></div>
+</body>
+</html>

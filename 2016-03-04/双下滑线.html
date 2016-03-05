@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>双下滑虚线测试</title>
+</head>
+<style>
+    .article{
+        width: 280px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+        border-bottom: 3px dotted #333;
+        border-top: 3px dotted #333;
+        position: relative;
+    }
+    .article:before{
+        height:2px;
+        content:'';
+        display:block;
+        border-bottom:3px dotted #333;
+    }
+    .name{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .price{
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+    .bottom-dotted{
+        height:1px ;
+        border-top:3px dotted #333;
+        margin-top:2px;
+        width:280px ;
+    }
+</style>
+<body>
+<div class="article">
+    <div class="name">砂锅羊肉</div>
+    <div class="price">30元</div>
+</div>
+<div class="bottom-dotted"></div>
+</body>
+</html>
