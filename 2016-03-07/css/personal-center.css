@@ -1,0 +1,322 @@
+/***********************************
+    公共样式
+************************************/
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.bg-margin{
+    margin-top: 12px;
+}
+.bg-color{
+    background-color: #f0efeb;
+}
+.myCar{
+    position: absolute;
+    left: 9px;
+    bottom: 60px;
+    width: 50px;
+    height: 50px;
+    background-color: #382310;
+    color:#b6a281;
+    border-radius: 50%;
+}
+.myCar-icon{
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.myCar-count{
+    z-index: 2;
+    color: #493d25;
+    font-size: 12px;
+    font-weight: 700
+}
+/*
+*footer样式区块
+*/
+.footer-nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 53px;
+    background-color: #382310;
+}
+.footer-nav li {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}
+.footer-nav li a {
+    text-decoration: none;
+    display: block;
+    height: 53px;
+    color: #8d7a59;
+    font-size: 14px;
+}
+.footer-nav li a.native{
+    background-color: #281504;
+    color: #fff;
+}
+.footer-nav li a i {
+    display: block;
+    padding-top: 5px;
+    font-size: 24px;
+    height: 30px;
+    overflow: hidden;
+}
+.footer-nav li span {
+    font-size: 14px;
+}
+/*************************************
+    个人中心页面样式
+************************************/
+
+/*
+头部样式
+*/
+.pc-header{
+    height: 117px;
+    width: 100%;
+    line-height: 117px;
+    background:url("../imgs/bg.png") no-repeat;
+}
+.pc-header-left{
+    float: left;
+    width: 50%;
+    height: inherit;
+}
+.pc-header-left img{
+    width: 75px;
+    height: 75px;
+    margin-left: 19px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.pc-header-left span {
+    font-size: 24px;
+    color: #281504;
+    font-weight: 700;
+}
+.pc-header-right{
+    float: right;
+    width: 50%;
+    height: inherit;
+    position: relative;
+}
+.pc-header-right .login-btn{
+    position: absolute;
+    font-size: 18px;
+    line-height: normal;
+    right: 15px;
+    top: 50%;
+    transform: translate(0,-50%);
+    border: 1px solid #7d6a59;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+/*
+*主页样式
+*/
+.pc-main{
+
+}
+
+.pc-order{
+    height: 95px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+.pc-order a {
+    height: 95px;
+    text-decoration: none;
+    display: block;
+}
+.pc-order a i{
+    display: block;
+    padding-top:6px;
+    margin-bottom:8px;
+    font-size: 50px;
+    overflow: hidden;
+}
+.pc-order a span{
+    font-size: 16px;
+}
+.rl-icon-redo {
+    color: #90bc31;
+}
+.rl-icon-spinner{
+    color: #f8b703;
+}
+.order-left{
+    height: inherit;
+    width: 49%;
+    float: left;
+    border-right: 1px solid #e8e8e8;
+}
+.order-right{
+    height: inherit;
+    width: 50%;
+    float: right;
+}
+/*
+*info 区块样式
+*/
+.pc-info {
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+}
+.pc-info li {
+    height: 53px;
+    line-height: 53px;
+    position: relative;
+    font-size: 18px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.info-title{
+    position: absolute;
+    left:15px;
+}
+.info-title span {
+    margin-left: 22px;
+}
+.info-con{
+    position: absolute;
+    right: 15px;
+}
+/*************************************
+    我的信息页面
+*************************************/
+.mi-title{
+    font-size: 18px;
+    padding:5px 15px;
+}
+.mi-select .select-item{
+    padding-left: 15px;
+    background-color: #fff;
+    height: 53px;
+    line-height: 53px;
+    position: relative;
+    font-size: 18px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.mi-select .select-item-tt{
+    1padding-left: 15px;
+}
+.select-item .select-item-sl{
+    position:absolute;
+    right: 15px;
+    top:0;
+}
+.mi-select .select-item2{
+    padding:10px 0 20px 15px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    font-size: 18px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.select-item2 .select-item2-lf{
+    width: 43%;
+    float: left;
+}
+.select-item2 .select-item2-lr{
+    width: 50%;
+    float: right;
+}
+.select-item2-lf .left-radio{
+    padding-left: 15px;
+}
+.mi-save-btn{
+    display: block;
+    padding: 11px 0;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    background-color: #e84011;
+    background-clip: padding-box;
+}
+
+
+/*********************************
+修改密码页面样式
+**********************************/
+
+.ep-form{
+    padding: 25px;
+}
+.ep-form-item{
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #808080;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.ep-form-item .ep-icon{
+    position: absolute;
+    left: 12px;
+    top: 0;
+    padding-right: 15px;
+    border-right: 1px solid #808080;
+}
+
+.ep-form-item .ep-edit{
+    position: absolute;
+    left: 57px;
+    font-size: 8px;
+    width: 100%;
+
+}
+.ep-edit .old-pw{
+    width: 20%;
+}
+.ep-input{
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    background: none;
+    width: 80%;
+
+}
+
+.ep-submit-btn{
+    display: block;
+    padding: 11px 0;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    background-color: #e84011;
+    background-clip: padding-box;
+}
+
+
+
+
+
+
+
+
+
