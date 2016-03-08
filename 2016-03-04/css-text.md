@@ -12,12 +12,14 @@
 * ellipsis 	显示省略符号来代表被修剪的文本。
 * string	使用给定的字符串来代表被修剪的文本。
 
-###text-indent; 属性规定文本块中首行文本的缩进。
+###text-indent; 属性规定文本块中首行文本的缩进
 >注释：允许使用负值。如果使用负值，那么首行会被缩进到左边。
 
 * length	定义固定的缩进。默认值：0。
 * %	        定义基于父元素宽度的百分比的缩进。
 * inherit	规定应该从父元素继承 text-indent 属性的值。
+
+>ps(可以用在输入框中控制placeholder文字的的位置)
 
 ###text-transform 
 * Capitalize 英文拼音的首字母大写
