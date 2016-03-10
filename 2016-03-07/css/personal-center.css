@@ -214,6 +214,20 @@
     right: 15px;
     top:0;
 }
+.select-item input[type="radio"]{
+ display: none;
+}
+.select-item label{
+    display: block;
+    position: absolute;
+    height: 53px;
+}
+.rl-icon-contact-filled{
+    color:#e84011 ;
+}
+.rl-icon-person-filled{
+    color:#e84011 ;
+}
 .mi-select .select-item2{
     padding:10px 0 20px 15px;
     background-color: #fff;
@@ -221,6 +235,9 @@
     overflow: hidden;
     font-size: 18px;
     border-bottom: 1px solid #f2f2f2;
+}
+.select-item2{
+    display: block;
 }
 .select-item2 .select-item2-lf{
     width: 43%;
