@@ -18,6 +18,27 @@
         -webkit-transform:scaleY(.5);
         -webkit-transform-origin:0 0;
     }
+.g-item-inner{
+  position: relative;
+  width: 100%;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+.g-item-inner:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  height: 1px;
+  width: 100%;
+  background-color: #e7e7e7;
+  display: block;
+  z-index: 15;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
 </style>
 <body>
 <div class="scale"></div>
